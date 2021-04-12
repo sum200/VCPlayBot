@@ -129,7 +129,7 @@ async def deezer(client: Client, message_: Message):
     m = await client.send_photo(
         chat_id=message_.chat.id,
         photo="final.png",
-        caption=f"Playing [{title}]({url}) Via [Deezer](https://t.me/RythmMusic)."
+        caption=f"Playing [{title}]({url}) Via [Deezer](https://t.me/LaylaSupport)."
     ) 
     os.remove("final.png")
 # -----------------------------------------------------Jiosaavn-----------------------------------------------------------------
@@ -174,7 +174,7 @@ async def jiosaavn(client: Client, message_: Message):
     await res.delete()
     m = await client.send_photo(
         chat_id=message_.chat.id,
-        caption=f"Playing {sname} Via [Jiosaavn](https://t.me/RythmMusic)",
+        caption=f"Playing {sname} Via [Jiosaavn](https://t.me/LaylaSupport)",
         photo="final.png",
     )
     os.remove("final.png")
