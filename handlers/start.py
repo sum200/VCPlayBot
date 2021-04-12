@@ -22,15 +22,15 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/",
+                        "🌍 Music World", url="https://t.me/RythmMusic",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/"
+                        "💬 Group", url="https://t.me/RythmMusic"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/"
+                        "🔊 Channel", url="https://t.me/RythmMusic"
                     ),
                     InlineKeyboardButton(
                         "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
