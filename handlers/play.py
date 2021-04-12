@@ -85,7 +85,7 @@ async def play(client: Client, message_: Message):
         m = await client.send_photo(
         chat_id=message_.chat.id,
         photo="https://telegra.ph/file/cbc7475dd38dfc8ee5511.png",
-        caption=f"Playing Your song Via  [✯𝗩𝗖𝗣𝗹𝗮𝘆✯](https://t.me/RythmMusic).",
+        caption=f"Playing Your song Via  [✯𝗩𝗖𝗣𝗹𝗮𝘆✯](https://t.me/LaylaSupport).",
          ) 
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
 
