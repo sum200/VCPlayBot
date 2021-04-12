@@ -12,9 +12,8 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
+\nI'm Rythm i can play music in your group's voice chat.
+\n🎵🎵🎶🎵🎵.
 \nUse the buttons below to know more about me.
  </b>""",
       
@@ -23,15 +22,15 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🌍 Music World", url="https://t.me/",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "💬 Group", url="https://t.me/"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/"
                     ),
                     InlineKeyboardButton(
                         "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
